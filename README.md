@@ -8,8 +8,8 @@ The objective of this project is to analyze flight performance data to identify 
 ## dataset used
 - <a href="https://github.com/mayor124/flight-delay-and-compellation-dashboard-using-power-bi-/blob/main/airports.csv">flight delay dataset</a>
 - <a href="https://github.com/mayor124/flight-delay-and-compellation-dashboard-using-power-bi-/blob/main/airlines.csv"> flight delay dataset</a>
-- <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/time_dim.csv">E-commerce dataset</a>
-- <a href="https://1drv.ms/x/c/99e024bbb05ca49a/ETUS9ZYquNlDsTbDibz0sKgBd3nR1s-RcDix-wnCCJbr_w?e=gR3caq">E-commerce dataset</a>
+- <a href="https://github.com/mayor124/flight-delay-and-compellation-dashboard-using-power-bi-/blob/main/cancellation_codes.csv">flight delay dataset</a>
+
 
 
 ## questions answerded
@@ -31,7 +31,7 @@ What’s the overall flight punctuality rate?
 ## dashbaord interaction
 - <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/Screenshot%202025-09-04%20142718.png">dashboard</a>
 
-- <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/Screenshot%202025-09-07%20133740.png">dashboard</a>
+
 
 ## Project Process
 
