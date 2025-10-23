@@ -1,6 +1,9 @@
 # Project Objective:
 
-To analyze and visualize global sales performance trends and identify key growth drivers across customers, products, and regions. The dashboard helps businesses make data-driven decisions for improving sales strategy and resource allocation.
+The objective of this project is to analyze flight performance data to identify delay and cancellation patterns across different airlines and cities. The goal is to help aviation stakeholders improve scheduling, reduce delays, and enhance customer satisfaction.
+
+
+
 
 ## dataset used
 - <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/Trans_dim.csv">E-commerce dataset</a>
@@ -11,18 +14,20 @@ To analyze and visualize global sales performance trends and identify key growth
 
 ## questions answerded
 
-What is the total revenue and growth rate compared to last year?
+Which city had the most flight activity?
+→ Atlanta leads with 0.35M total flights.
 
-Which countries contribute most to total sales?
+Which airlines faced the most delays?
+→ United Airlines and Southwest Airlines top the delay list.
 
-What are the monthly sales patterns and seasonal trends?
+What’s the primary cause of flight delays?
+→ Airline/Carrier-related issues (57.3%) are the main reason for delays.
 
-Who are the top customers and their contribution?
+How do cancellations compare to delays?
+→ Delays are far more common (41%) than cancellations (1%).
 
-What are the best-selling products by quantity and value?
-
-How do sales quantity and unit price impact total revenue?
-
+What’s the overall flight punctuality rate?
+→ 57.99% of flights are on time, indicating room for improvement in operational efficiency.
 ## dashbaord interaction
 - <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/Screenshot%202025-09-04%20142718.png">dashboard</a>
 
@@ -30,22 +35,18 @@ How do sales quantity and unit price impact total revenue?
 
 ## Project Process
 
-Data Collection: Sales and customer data gathered across multiple regions and years.
+Data Collection: Imported raw flight data including city, airline, delay status, and cancellation reasons.
 
-Data Cleaning: Removed missing and duplicate records; standardized date and product formats.
+Data Cleaning: Handled missing data, standardized flight records, and filtered invalid entries.
 
-Data Transformation: Created calculated fields for revenue, growth rate, and KPIs.
+Data Modeling: Built relationships between flight details, delay causes, and performance metrics.
 
-Exploratory Data Analysis: Identified top customers, best-selling products, and high-performing countries.
+Visualization: Created dynamic visuals to show total, delayed, and cancelled flights, top cities, and major delay causes.
 
-Visualization: Built in Power BI with charts for revenue, trends, and geographical distribution.
-
-Insight Reporting: Highlighted growth opportunities, performance gaps, and key revenue contributors.
-
+Insight Extraction: Found that most delays were airline-related, with Atlanta leading in total flight volume and delay rates.
 
 ## dashboard
-<img width="1298" height="709" alt="Screenshot 2025-09-04 142718" src="https://github.com/user-attachments/assets/8fa228b9-2649-4166-ba6d-ba5c6f5b2de6" />
-<img width="1251" height="647" alt="Screenshot 2025-09-07 133740" src="https://github.com/user-attachments/assets/300e24b7-e704-4fc5-898a-2573130852c0" />
+<img width="1494" height="746" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/17b78312-041e-4066-8396-7f5e331b1f74" />
 
 
 
@@ -54,25 +55,32 @@ Insight Reporting: Highlighted growth opportunities, performance gaps, and key r
 ## Project Insights
 
 
-The dashboard provides a comprehensive overview of global sales performance over time. It visualizes revenue trends, sales quantity, customer insights, top-performing products, and geographical distribution.
+Total Flights: Over 1.9 million flights were recorded, showing a strong level of air traffic across major U.S. cities.
 
-Key metrics include:
+Delays: About 790.5K flights (41%) experienced delays — a significant operational issue that impacts airline reliability.
 
-Revenue: $105M (↑16.12% vs previous year)
+Cancellations: Roughly 28.6K flights (1%) were cancelled, showing minimal but notable disruptions.
 
-Quantity Sold: 6K units (↑16.12% vs previous year)
+Top Cities:
 
-Average Unit Price: $17.56
+Atlanta (0.35M) and Chicago (0.29M) lead in flight volume, likely due to being major airline hubs.
 
-Customer Count: 9.2K active customers
+Airlines Most Affected:
 
-Top-performing customers: Pooja, Neha, and Jyoti contributed the highest sales volumes.
-Top-selling products: “CT,” “Cans,” and “Bottles” lead in total quantity sold.
-Geographical Performance: Major markets include India ($13M), Bangladesh ($13M), Lithuania ($12M), Germany ($11M), and Poland ($10M).
+United Airlines, Southwest, and Spirit Air experienced the most delays — possibly linked to higher traffic or network size.
 
-Overall, the dashboard gives business leaders a clear snapshot of sales growth, regional opportunities, and customer-driven performance.
+Delay Causes:
 
+Airline/Carrier issues caused 57.3% of all delays, followed by Weather (28.3%), showing internal inefficiencies are a bigger factor than external ones.
 
+Performance Ratio:
+
+On-time: 58%
+
+Delayed: 41%
+
+Cancelled: 1%
+This indicates nearly half of flights experience disruptions.
 ## Project Conclusion
 
 This analysis shows strong year-over-year growth in both revenue and quantity, with stable customer engagement.
