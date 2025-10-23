@@ -29,7 +29,7 @@ How do cancellations compare to delays?
 What’s the overall flight punctuality rate?
 → 57.99% of flights are on time, indicating room for improvement in operational efficiency.
 ## dashbaord interaction
-- <a href="https://github.com/mayor124/Revenue-Pulse-Global-Sales-Performance-Overview-using-excel-/blob/main/Screenshot%202025-09-04%20142718.png">dashboard</a>
+- <a href="https://github.com/mayor124/flight-delay-and-compellation-dashboard-using-power-bi-/blob/main/Screenshot%20(16).png">dashboard</a>
 
 
 
@@ -83,7 +83,6 @@ Cancelled: 1%
 This indicates nearly half of flights experience disruptions.
 ## Project Conclusion
 
-This analysis shows strong year-over-year growth in both revenue and quantity, with stable customer engagement.
-While the average unit price remained constant, the overall sales increase indicates higher demand.
-The business has strong market penetration in Asia and Europe, suggesting a balanced global presence.
-Continued focus on high-performing regions and customers like India and Bangladesh can drive even greater revenue growth.
+The Flight Delay and Cancellation Dashboard provides clear insights into airline performance and flight reliability across major U.S. cities. The analysis reveals that while most flights operate on schedule, a large portion—over 40%—experience delays, primarily due to airline or carrier-related issues rather than external factors like weather.
+
+By identifying top delay-prone airlines and cities, this dashboard enables aviation stakeholders to target operational inefficiencies, improve resource planning, and enhance customer satisfaction. Overall, the project demonstrates how data analytics can turn flight data into actionable intelligence for better decision-making and improved on-time performance.
